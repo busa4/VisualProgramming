@@ -29,5 +29,11 @@ namespace WindowsFormsApp1
             Tickets f2 = new Tickets();
             f2.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            assigment3 f3 = new assigment3();
+            f3.ShowDialog();
+        }
     }
 }
