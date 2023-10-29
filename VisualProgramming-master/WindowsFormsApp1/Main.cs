@@ -35,5 +35,11 @@ namespace WindowsFormsApp1
             assigment3 f3 = new assigment3();
             f3.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            factorial f4 = new factorial();
+            f4.ShowDialog();
+        }
     }
 }

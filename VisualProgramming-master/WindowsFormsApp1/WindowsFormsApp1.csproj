@@ -52,6 +52,12 @@
     <Compile Include="assigment3.Designer.cs">
       <DependentUpon>assigment3.cs</DependentUpon>
     </Compile>
+    <Compile Include="factorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factorial.Designer.cs">
+      <DependentUpon>factorial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="assigment3.resx">
       <DependentUpon>assigment3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="factorial.resx">
+      <DependentUpon>factorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
