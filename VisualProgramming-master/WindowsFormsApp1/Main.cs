@@ -41,5 +41,11 @@ namespace WindowsFormsApp1
             factorial f4 = new factorial();
             f4.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            game5 g5 = new game5();
+            g5.ShowDialog();
+        }
     }
 }
