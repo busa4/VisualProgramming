@@ -47,5 +47,11 @@ namespace WindowsFormsApp1
             game5 g5 = new game5();
             g5.ShowDialog();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ass6 ass6 = new ass6();
+            ass6.ShowDialog();
+        }
     }
 }

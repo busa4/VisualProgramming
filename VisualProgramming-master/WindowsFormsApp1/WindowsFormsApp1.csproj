@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ass6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ass6.Designer.cs">
+      <DependentUpon>ass6.cs</DependentUpon>
+    </Compile>
     <Compile Include="assigment3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="Tickets.Designer.cs">
       <DependentUpon>Tickets.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ass6.resx">
+      <DependentUpon>ass6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="assigment3.resx">
       <DependentUpon>assigment3.cs</DependentUpon>
     </EmbeddedResource>
