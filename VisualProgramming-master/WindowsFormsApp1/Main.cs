@@ -53,5 +53,11 @@ namespace WindowsFormsApp1
             ass6 ass6 = new ass6();
             ass6.ShowDialog();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            asgmt7 asgmt7 = new asgmt7();
+            asgmt7.ShowDialog();
+        }
     }
 }
