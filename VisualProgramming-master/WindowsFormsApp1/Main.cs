@@ -59,5 +59,11 @@ namespace WindowsFormsApp1
             asgmt7 asgmt7 = new asgmt7();
             asgmt7.ShowDialog();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Project project = new Project();
+            project.ShowDialog();
+        }
     }
 }
